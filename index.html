@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>HIMASAL MADIUN</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html, body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background-color: #ffffff;
+    }
+    
+    /* Container untuk mendorong banner biru Google Apps Script ke luar layar atas */
+    .iframe-wrapper {
+      position: absolute;
+      top: -50px; /* Nilai -50px mendorong bar biru setinggi 50px ke atas layar */
+      left: 0;
+      width: 100%;
+      height: calc(100% + 50px); /* Menambah tinggi agar area bawah tetap penuh */
+    }
+    
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="iframe-wrapper">
+    <!--  -->
+    <iframe src="https://script.google.com/macros/s/AKfycbwiM4zJrxc_y_4WMiR-Rs1uduMWenlhY6nBo0YjELOKy-w0uUPWR1MbkVLLKN1MyAQ4/exec"></iframe>
+  </div>
+</body>
+</html>
